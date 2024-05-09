@@ -8,15 +8,23 @@ class LogoWithText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
+        SvgPicture.asset(
+          'assets/svg/ESS_LOGO.svg',
+          width: 150,
+        )
+            .animate()
+            .moveY(
+              duration: 700.ms,
+            ),
         const SizedBox(
           height: 20,
         ),
         SvgPicture.asset(
-          'assets/svg/ESS.svg',
+          'assets/svg/ESS_TXT.svg',
           width: 150,
         ).animate().move(
               duration: 700.ms,
