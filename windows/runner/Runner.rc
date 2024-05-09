@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.ess" "\0"
-            VALUE "FileDescription", "earth_solution_system" "\0"
+            VALUE "CompanyName", "com.fawazalrasyid" "\0"
+            VALUE "FileDescription", "ess" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "earth_solution_system" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.ess. All rights reserved." "\0"
-            VALUE "OriginalFilename", "earth_solution_system.exe" "\0"
-            VALUE "ProductName", "earth_solution_system" "\0"
+            VALUE "InternalName", "ess" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.fawazalrasyid. All rights reserved." "\0"
+            VALUE "OriginalFilename", "ess.exe" "\0"
+            VALUE "ProductName", "ess" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

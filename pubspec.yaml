@@ -1,28 +1,41 @@
-name: earth_solution_system
+name: ess
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
-environment: 
-  sdk: '>=3.3.0 <4.0.0'
+environment:
+  sdk: ">=3.3.4 <4.0.0"
 
-dependencies: 
-  cupertino_icons: ^1.0.6
+dependencies:
+  cupertino_icons: ^1.0.2
   get: 4.6.6
-  flutter: 
+  flutter:
     sdk: flutter
-  get_storage: ^2.1.1
-  flutter_animate: ^4.5.0
-  svg_flutter: ^0.0.1
   firebase_core: ^2.31.0
-  google_fonts: ^6.2.0
+  firebase_analytics: ^10.10.5
   firebase_auth: ^4.19.5
+  intl: ^0.19.0
+  iconly: ^1.0.1
+  fluttertoast: ^8.2.5
+  flutter_svg_icons: ^0.0.1+4
   cloud_firestore: ^4.17.3
+  carousel_slider: ^4.2.1
+  polymaker: ^1.0.3
+  google_maps_flutter: ^2.6.1
+  flutter_map_line_editor: ^6.0.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  flutter_map_dragmarker: ^6.0.0
+  flutter_google_maps_webservices: ^1.1.1
+  location: ^6.0.2
 
-dev_dependencies: 
+dev_dependencies:
   flutter_lints: 3.0.2
-  flutter_test: 
+  flutter_test:
     sdk: flutter
 
-flutter: 
+flutter:
   uses-material-design: true
 
+  assets:
+    - assets/images/
+    - assets/icons/

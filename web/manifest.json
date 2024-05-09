@@ -1,6 +1,6 @@
 {
-    "name": "earth_solution_system",
-    "short_name": "earth_solution_system",
+    "name": "ess",
+    "short_name": "ess",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

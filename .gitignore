@@ -41,3 +41,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ess Env
+/lib/firebase_options.dart
+/lib/app/core/configs/constants.dart
+/android/app/src/main/AndroidManifest.xml
+/ios/Runner/AppDelegate.swift

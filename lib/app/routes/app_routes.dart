@@ -3,16 +3,26 @@ part of 'app_pages.dart';
 
 abstract class Routes {
   Routes._();
-  static const SPLASH_SCREEN = _Paths.SPLASH_SCREEN;
-  static const ONBOARDING_SCREEN = _Paths.ONBOARDING_SCREEN;
+  static const SPLASH = _Paths.SPLASH;
+  static const ONBOARDING = _Paths.ONBOARDING;
   static const LOGIN = _Paths.LOGIN;
   static const REGISTER = _Paths.REGISTER;
+  static const PRIVACY_POLICY = _Paths.PRIVACY_POLICY;
+  static const MAIN = _Paths.MAIN;
+  static const HOME = _Paths.HOME;
+  static const MAPS = _Paths.MAPS;
+  static const SETTINGS = _Paths.SETTINGS;
 }
 
 abstract class _Paths {
   _Paths._();
-  static const SPLASH_SCREEN = '/splash-screen';
-  static const ONBOARDING_SCREEN = '/onboarding-screen';
+  static const SPLASH = '/splash';
+  static const ONBOARDING = '/onboarding';
   static const LOGIN = '/login';
   static const REGISTER = '/register';
+  static const PRIVACY_POLICY = '/privacy-policy';
+  static const MAIN = '/main';
+  static const HOME = '/home';
+  static const MAPS = '/maps';
+  static const SETTINGS = '/settings';
 }
