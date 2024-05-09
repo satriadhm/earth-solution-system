@@ -12,14 +12,6 @@ class LogoWithText extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        SvgPicture.asset(
-          'assets/svg/logo.svg',
-          width: 150,
-        )
-            .animate()
-            .moveY(
-              duration: 700.ms,
-            ),
         const SizedBox(
           height: 20,
         ),

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125751913781",
+    "project_id": "earth-solution-system",
+    "storage_bucket": "earth-solution-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125751913781:android:fe93c4eb33525be22cf07c",
+        "android_client_info": {
+          "package_name": "com.ess.earth_solution_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxgLvUjSXW-NILSpcqr34FPPAHJbXatwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
